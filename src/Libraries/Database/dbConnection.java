@@ -1,0 +1,22 @@
+package Libraries.Database;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+public class dbConnection {
+
+    private static java.sql.Connection conn;
+    private static String url = "jdbc:mysql://localhost:3306/ChatRoom";
+    private static String username = "bhavya";
+    private static String password = "1234";
+
+    public static java.sql.Connection createConnection() throws SQLException {
+        conn = DriverManager.getConnection(url,username,password);
+        return conn;
+    }
+
+    public static void closeConnection() throws SQLException {
+        conn.close();
+    }
+}
