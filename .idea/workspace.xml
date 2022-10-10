@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b55ce43-e5d6-483f-9d92-589b2989b940" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/ClientObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/ServerHandshake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/ClientHandshake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/sSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Prompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Libraries/Shell/ItShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Shell/ItShell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/cSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/cSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/sSocket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
