@@ -19,4 +19,13 @@ public class dbConnection {
     public static void closeConnection() throws SQLException {
         conn.close();
     }
+    public static boolean executeQuery(Connection conn, String query) throws SQLException {
+        boolean rs = cstmt.executeQuery(query);
+        return rs;
+    }
+
+    public static ResultSet executeQueryRS(Connection conn, String query) throws SQLException {
+        ResultSet rs = cstmt.executeQuery(query);
+        return rs;
+    }
 }
