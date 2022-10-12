@@ -20,7 +20,11 @@ public class Handler extends Thread{
             ClientHandshake handshake = new ClientHandshake(client);
             User user = handshake.initHandshake();
             System.out.println("Handshake completed welcome, "+user.Name);
-            clients.add(new ClientObj(Integer.valueOf(user.UserId),user.Name,client));
+            ClientObj clientObj = new ClientObj(Integer.valueOf(user.UserId),user.Name,client);
+            clients.add(clientObj);
+            ClientHandler clientHandler = new ClientHandler(clientObj);
+            clientHandler.startClientHandler();
+
         }
         catch (Exception e){
             System.out.println("Exception Occurred");

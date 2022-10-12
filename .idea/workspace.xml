@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b55ce43-e5d6-483f-9d92-589b2989b940" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Models/Prompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libraries/Authentication/UserLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Database/dbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Database/dbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Models/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Models/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Models/Prompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Models/Prompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Libraries/Shell/ItShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Shell/ItShell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Client/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Client/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Client/ServerHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/ServerHandshake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Client/cSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Client/cSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Server/ClientHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/ClientHandshake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Socket/Server/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Libraries/Socket/Server/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +39,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Libraries/Socket/Server/sSocket.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/io/EOFException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,12 +54,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bhavya/IdeaProjects/Chat Room With Java/src/Libraries/JARs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/Project/Chat-Room-With-Java/src/Libraries/JARs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Project\Chat-Room-With-Java\src\Libraries\JARs" />
       <recent name="$PROJECT_DIR$/src/Libraries/JARs" />
       <recent name="$PROJECT_DIR$/src/JARs" />
     </key>
@@ -61,10 +71,10 @@
       <recent name="$PROJECT_DIR$/src/Libraries/Database" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Chat Room With Java" />
+      <module name="Chat-Room-With-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,23 +87,23 @@
     </configuration>
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client" />
-      <module name="Chat Room With Java" />
+      <module name="Chat-Room-With-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server" />
-      <module name="Chat Room With Java" />
+      <module name="Chat-Room-With-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.client" />
-        <item itemvalue="Application.server" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.server" />
+        <item itemvalue="Application.client" />
       </list>
     </recent_temporary>
   </component>

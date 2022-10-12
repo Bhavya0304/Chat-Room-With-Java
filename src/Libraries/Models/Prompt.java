@@ -6,6 +6,7 @@ public class Prompt {
     public String promptText;
     public String promptExtras;
 
+    public String To;
     public Prompt(Integer id, String promptType, String promptText, String promptExtras) {
         this.id = id;
         this.promptType = promptType;
@@ -15,6 +16,6 @@ public class Prompt {
 
     @Override
     public String toString() {
-        return promptText + "(" + promptExtras + ")> ";
+        return promptText + "(" + promptExtras + ") > ";
     }
 }

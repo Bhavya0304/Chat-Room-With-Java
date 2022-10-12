@@ -25,8 +25,6 @@ public class ServerHandshake {
             str = (String)in.readUTF();
 
             if(str.equals("Thank You!")){
-                in.close();
-                out.close();
                 return;
             }
 

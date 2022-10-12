@@ -35,7 +35,7 @@ public class User {
             return result.getInt("UserId");
         }
         else{
-            return 0;
+            return -1;
         }
     }
 

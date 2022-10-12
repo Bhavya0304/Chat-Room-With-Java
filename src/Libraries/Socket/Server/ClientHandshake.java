@@ -33,9 +33,6 @@ public class ClientHandshake {
 
             out.writeUTF("Thank You!");
 
-            out.close();
-            in.close();
-
             return userClient;
         }
         catch (Exception e){

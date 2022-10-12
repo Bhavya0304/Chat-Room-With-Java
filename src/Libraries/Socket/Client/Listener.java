@@ -15,7 +15,12 @@ public class Listener extends Thread {
     public void run() {
         try {
             DataInputStream in=new DataInputStream(server.getInputStream());
-
+            while(true){
+                if(in.available()>0){
+                    String data = in.readUTF().toString();
+                    System.out.println(data);
+                }
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

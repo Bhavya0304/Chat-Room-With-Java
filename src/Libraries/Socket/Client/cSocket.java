@@ -1,5 +1,7 @@
 package Libraries.Socket.Client;
 
+import Libraries.Shell.ItShell;
+
 import java.io.IOException;
 import java.net.Socket;
 
@@ -20,6 +22,10 @@ public class cSocket {
         ServerHandshake handshake = new ServerHandshake(socket);
         handshake.initHandshake(clientId);
         System.out.println("Client Handshake completed!");
+        Listener listener = new Listener(socket);
+        listener.start();
+        ItShell shell = new ItShell(1,"CJCR");
+        shell.InitPrompt(socket);
 
     }
 

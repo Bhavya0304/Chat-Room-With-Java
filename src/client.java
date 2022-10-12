@@ -1,25 +1,25 @@
 
-import Libraries.Models.User;
+import Libraries.Authentication.UserLogin;
 import Libraries.Socket.Client.cSocket;
 
-import java.io.Console;
-import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class client {
     public static void main(String[] args) throws Exception {
-        Console console = System.console();
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Username: ");
-        String username = scanner.nextLine().toString();
-        String password = String.valueOf(console.readPassword("Password: "));
-        User user = new User();
-        System.out.println(username);
-        System.out.println(password);
-        user.Username = username;
-        user.Password = password;
-        int id = User.verfiyUser(user);
-        System.out.println(id);
+        UserLogin login = new UserLogin();
+        int id;
+
+        while(true){
+            try{
+                id = login.initAuthenticationUsingLogin();
+                break;
+            }catch (Exception e){
+                System.out.println(e);
+                continue;
+            }
+        }
         cSocket client = new cSocket(id);
         client.initClient();
     }
